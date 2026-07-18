@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Runs what I ask it to do cancel-timeout-minutes:
+      - name: Run a customized script 
+        run: echo Hello, Manav !
